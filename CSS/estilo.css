@@ -272,3 +272,34 @@ a{
     justify-content: center;
     color: black;
 }
+
+
+@media screen and (max-width: 768px) {
+    .header-container {
+        padding: 30px 5% 10px;
+    }
+    h2{
+      font-size: 18px;
+    }
+    .botao{
+        border-radius: 5px;
+        width: 40px;
+        height: 40px;
+    }
+    
+    h1 {
+        font-size: 10vw;
+    }
+    .card {
+        width: 40vw;
+        height: 40vw;
+        margin: 3vw 0;
+    }
+    
+    .card-text p {
+        font-size: 2.5vw;
+    }
+    .footer{
+        font-size: 12px;
+    }
+}
