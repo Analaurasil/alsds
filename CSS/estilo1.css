@@ -223,6 +223,26 @@ h2{
     .header-container {
         padding: 30px 5% 10px;
     }
+    .checkbox .trace{
+        width: 25px;
+        height: 4px;
+        background-color: black;
+        position: absolute;
+        border-radius: 4px;
+        transition: 0.5s ease-in-out;
+    }
+    .checkbox .trace:nth-child(1){
+        top: 16px;
+        transform: rotate(0);
+    }
+    .checkbox .trace:nth-child(2){
+        top: 26px;
+        transform: rotate(0);
+    }
+    .checkbox .trace:nth-child(3){
+        top: 36px;
+        transform: rotate(0);
+    }
     h2{
       font-size: 18px;
     }

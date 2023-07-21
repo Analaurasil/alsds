@@ -278,8 +278,16 @@ a{
     .header-container {
         padding: 30px 5% 10px;
     }
+    .checkbox .trace{
+        width: 25px;
+        height: 4px;
+        background-color: black;
+        position: absolute;
+        border-radius: 4px;
+        transition: 0.5s ease-in-out;
+    }
     h2{
-      font-size: 18px;
+      font-size: 15px;
     }
     .botao{
         border-radius: 5px;
