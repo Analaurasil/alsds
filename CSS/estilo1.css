@@ -37,6 +37,9 @@ h2{
     text-transform: uppercase;
     letter-spacing: 4px;
 }
+p{
+    font-size: 25px;
+}
 .social-media{
     margin-top: 2px;
     display: flex;
@@ -219,6 +222,10 @@ h2{
     color: black;
 }
 
+.footer p{
+    font-size: 20px;
+}
+
 @media screen and (max-width: 768px) {
     .header-container {
         padding: 30px 5% 10px;
@@ -265,7 +272,7 @@ h2{
     .card-text p {
         font-size: 2vw;
     }
-    .footer{
+    .footer p{
         font-size: 12px;
     }
 }
